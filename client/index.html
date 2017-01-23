@@ -1,0 +1,27 @@
+<html ng-app="customers-app">
+<head>
+  <title>Customers App</title>
+  <!-- require angular -->
+	<script type="text/javascript" src="./javascripts/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./javascripts/angular/angular-route.min.js"></script>
+  <script type="text/javascript" src="./javascripts/initialize.js"></script>
+  <!-- Friends controller and factory -->
+  <script type="text/javascript" src="./javascripts/controllers/customers.js"></script>
+  <script type="text/javascript" src="./javascripts/factories/customer.js"></script>
+  <script type="text/javascript" src="./javascripts/controllers/orders.js"></script>
+  <script type="text/javascript" src="./javascripts/factories/order.js"></script>
+  <!-- Angular Routes -->
+  <script type="text/javascript" src="./javascripts/routes.js"></script>
+  <!-- Styling -->
+  <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./styling/style.css">
+</head>
+<body ng-controller="CustomersController as cC">
+	<div class="container">
+		<div>
+			<span><a href="#/">Customers</a> | <a href="#/order">Orders</a></span>
+		</div>
+		<div ng-view=''></div>
+	</div>
+</body>
+</html>

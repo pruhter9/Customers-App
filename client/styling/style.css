@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: purple;
+}
+input {
+	padding: 3px;
+	line-height: 1em;
+}
+table, th, td {
+	text-align: left;
+	border: 1px solid black;
+}
+th, td {
+	padding-left: 5px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+th {
+	height: 35px;
+	background-color: orange;
+	color: white;
+}

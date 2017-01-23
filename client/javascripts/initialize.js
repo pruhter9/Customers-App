@@ -1,0 +1,1 @@
+var customers_app = angular.module('customers-app', ['ngRoute']);
